@@ -33,7 +33,7 @@ jobs:
           owner: traefik
           repository: charts
           branch: master
-          target_dir: traefik
+          target_dir: mesh
           index_dir: .
           commit_username: traefiker
           commit_email: 30906710+traefiker@users.noreply.github.com

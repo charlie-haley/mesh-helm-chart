@@ -18,7 +18,7 @@ To install the chart with the release name `traefik-mesh`:
 ```bash
 $ helm repo add traefik https://traefik.github.io/charts
 $ helm repo update
-$ helm install traefik traefik/traefik-mesh
+$ helm install traefik-mesh traefik/traefik-mesh
 ```
 
 You can use the `--namespace my-namespace` flag to deploy Traefik Mesh in a custom namespace and the `--set "key1=val1,key2=val2,..."` flag to configure it.
